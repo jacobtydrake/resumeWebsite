@@ -1,0 +1,290 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    font-family: "Nunito", "Roboto", "Arial", sans-serif;
+    text-align: center;
+}
+
+h1{
+    color:#1e2123;
+    font-size: 4.5rem;
+    margin: 20rem 0 0 8rem;
+    max-width: 50%;
+    height: auto;
+    width: auto;
+
+}
+h2{
+
+    display: table-cell;
+    color: #F2CD5C;
+    font-size: 4rem;
+    margin-left: 8rem;
+    vertical-align: middle;
+    width: auto;
+
+    
+}
+h3{
+    font-size:2rem;
+    color :#1e2123;
+    margin: 3rem 0 -1rem 8rem;
+
+}
+h4{
+    color:#1e2123;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    max-width: 50%;
+    height: auto;
+    width: auto;
+
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* margin-bottom: 5px; */
+}
+
+.intro
+{
+    float: left;
+    white-space: nowrap;
+   
+}
+
+.skillsDesc{
+    color: #1e2123;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    max-width: 50%;
+}
+.contactDesc{
+    color: #1e2123;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    max-width: 50%;
+}
+
+.skillsList{
+    color: #1e2123;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    columns: 2;
+   -webkit-columns: 2;
+   -moz-columns: 2;
+   /* padding-left: 10%;
+   padding-right: 40%; */
+   margin-bottom: 6rem;
+
+   max-width: 50%;
+}
+
+.skillsWrapper{
+    max-width: 100%;
+    float:left;
+}
+
+.navbar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+  
+.navbar a:hover {
+background: #F2CD5C;
+color: black;
+}
+
+.topContainer{
+    background-color: #fbfbfb;
+    margin: 0px 0px 0px 0px; 
+    min-height: 100vh;
+    text-align: left;
+    overflow: hidden;
+}
+
+.skills{
+    display: flex;
+    background-color: #333;
+    max-height: 20vh;
+    overflow: hidden;
+    text-align: left;
+    align-items: center;
+}
+
+
+.middleContainer{
+    background-color: #fbfbfb;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+}
+
+.bottomContainer{
+    background-color: #fbfbfb;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.dotsImage{
+
+    position: relative;
+    height: 50rem;
+    width: 50rem;
+    /* margin-left: 10%; */
+    left: 20%;
+    white-space: nowrap;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #F2CD5C;
+    font-size: 20px;
+    background: #333;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+  .endButtons{
+    margin: 4rem 0 0 8rem;
+    padding: 1rem;
+  }
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+
+
+}
+  
+@media all and (min-width:801px) and (max-width: 959px) {
+
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+    h1{
+        font-size: 3rem;
+        margin: 0rem;
+        max-width: 100%;
+    
+    }
+    h2{
+        margin: auto;
+        font-size: 2rem;
+        margin: 0 0 0 0;
+        text-align: center;
+        width:100%
+    }
+    h3{
+        margin: 1rem 0  1rem 0 ;
+        padding: 0;
+        font-size: 1.3rem;
+    }
+    h4{
+        font-size: 1rem;
+        padding: 0rem;
+        max-width: 100%;
+        margin: 3rem 1rem 1rem 1rem;
+    
+    }
+    .intro{
+        float: none;
+
+    }
+    .topContainer{
+        min-height: 80vh;
+        padding-top: 7rem;   
+        text-align: center;     
+    }
+
+    .middleContainer{
+        min-height: 80vh;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .bottomContainer{
+        min-height: 80vh;
+        text-align: center;
+        align-items: center;;
+    }
+
+    .dotsImage{
+        width: 50%;
+        height: auto;
+        margin: 0rem;
+        left:0%;
+    }
+
+    .skills{
+        max-height: 10vh;
+        text-align: center;
+    }
+
+    .skillsDesc{
+        margin: auto;
+        text-align: center;
+        font-size: 1.2rem;
+        max-width: 80%;
+        margin-bottom: 0.5rem;
+    }
+    .skillsList{
+        margin: auto;
+        padding: 0;
+        text-align: left;
+        font-size: 1.2rem;
+        max-width: 70%;
+        columns: 1;
+    }
+    .contactDesc{
+        margin: auto;
+        text-align: center;
+        font-size: 1.2rem;
+        max-width: 80%;
+        margin-bottom: 4rem;
+    }
+    .endButtons{
+        margin: auto;
+        max-width: 100%; 
+    }
+
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+
+}
