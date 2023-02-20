@@ -169,7 +169,7 @@ html{
   }
   .endButtons{
     margin: 4rem 0 0 8rem;
-    padding: 1rem;
+    padding: 0;
   }
 
 /* @media all and (min-width:960px) and (max-width: 1024px) {
@@ -271,6 +271,7 @@ html{
     .endButtons{
         margin: auto;
         max-width: 100%; 
+        
     }
 
 }
